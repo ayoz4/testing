@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="76408dfe-046f-4fb4-a2ed-75180b5ddd85" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1lhI7JYjMxaICuByMWUSmdtZdgD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="305" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/jdatepicker-1.3.4.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gui.OrderingDialog" />
+      <module name="Lab_04" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="76408dfe-046f-4fb4-a2ed-75180b5ddd85" name="Default Changelist" comment="" />
+      <created>1608042727359</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608042727359</updated>
+      <workItem from="1608042728600" duration="11747000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="520" y="199" key="#Project_Structure" timestamp="1608042746132">
+      <screen x="0" y="0" width="1857" height="1080" />
+    </state>
+    <state x="520" y="199" key="#Project_Structure/0.0.1857.1080@0.0.1857.1080" timestamp="1608042746132" />
+    <state x="382" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608044764852">
+      <screen x="0" y="0" width="1857" height="1080" />
+    </state>
+    <state x="382" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1857.1080@0.0.1857.1080" timestamp="1608044764852" />
+    <state x="733" y="250" key="#com.intellij.ide.util.MemberChooser" timestamp="1608051646934">
+      <screen x="0" y="0" width="1857" height="1080" />
+    </state>
+    <state x="733" y="250" key="#com.intellij.ide.util.MemberChooser/0.0.1857.1080@0.0.1857.1080" timestamp="1608051646934" />
+    <state x="657" y="324" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1608044763660">
+      <screen x="0" y="0" width="1857" height="1080" />
+    </state>
+    <state x="657" y="324" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1857.1080@0.0.1857.1080" timestamp="1608044763660" />
+    <state x="634" y="282" key="FileChooserDialogImpl" timestamp="1608047071692">
+      <screen x="0" y="0" width="1857" height="1080" />
+    </state>
+    <state x="634" y="282" key="FileChooserDialogImpl/0.0.1857.1080@0.0.1857.1080" timestamp="1608047071692" />
+    <state width="1814" height="295" key="GridCell.Tab.0.bottom" timestamp="1608055363950">
+      <screen x="0" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1814" height="295" key="GridCell.Tab.0.bottom/0.0.1857.1080@0.0.1857.1080" timestamp="1608055363950" />
+    <state width="1814" height="295" key="GridCell.Tab.0.center" timestamp="1608055363950">
+      <screen x="0" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1814" height="295" key="GridCell.Tab.0.center/0.0.1857.1080@0.0.1857.1080" timestamp="1608055363950" />
+    <state width="1814" height="295" key="GridCell.Tab.0.left" timestamp="1608055363950">
+      <screen x="0" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1814" height="295" key="GridCell.Tab.0.left/0.0.1857.1080@0.0.1857.1080" timestamp="1608055363950" />
+    <state width="1814" height="295" key="GridCell.Tab.0.right" timestamp="1608055363950">
+      <screen x="0" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1814" height="295" key="GridCell.Tab.0.right/0.0.1857.1080@0.0.1857.1080" timestamp="1608055363950" />
+    <state x="408" y="115" key="SettingsEditor" timestamp="1608047077097">
+      <screen x="0" y="0" width="1857" height="1080" />
+    </state>
+    <state x="408" y="115" key="SettingsEditor/0.0.1857.1080@0.0.1857.1080" timestamp="1608047077097" />
+    <state x="585" y="250" key="run.anything.popup" timestamp="1608047231610">
+      <screen x="0" y="0" width="1857" height="1080" />
+    </state>
+    <state x="585" y="250" key="run.anything.popup/0.0.1857.1080@0.0.1857.1080" timestamp="1608047231610" />
+  </component>
+</project>
