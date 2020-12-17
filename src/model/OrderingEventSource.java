@@ -8,7 +8,6 @@ public class OrderingEventSource extends Observable {
     }
 
     public void SendOrder(Object data) {
-        System.out.println(data);
         setChanged();
         notifyObservers(data);
     }

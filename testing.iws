@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="784f1ba4-03cb-4ebb-896b-502040da2458" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/model/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/ExtraDrink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/PizzaSize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Sauce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/KerbelStub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/OrderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/OrderingDialogTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ParametrizedOrderingDialogTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/OrderingDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/OrderingDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Kernel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Kernel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/OrderingEventSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/OrderingEventSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/PizzaType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/PizzaType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Time.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ljYU8ro3AgiAzEMMqaVS1d5x86" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RunManager" selected="JUnit.ParametrizedOrderingDialogTest.test">
+    <configuration name="OrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.OrderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderingDialogTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.OrderingDialogTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderingDialogTest.null_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.OrderingDialogTest" />
+      <option name="METHOD_NAME" value="null_test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderingDialogTest.validation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.OrderingDialogTest" />
+      <option name="METHOD_NAME" value="validation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParametrizedOrderingDialogTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.ParametrizedOrderingDialogTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ParametrizedOrderingDialogTest.test" />
+        <item itemvalue="JUnit.OrderingDialogTest.null_test" />
+        <item itemvalue="JUnit.OrderingDialogTest.validation" />
+        <item itemvalue="JUnit.OrderingDialogTest" />
+        <item itemvalue="JUnit.OrderTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="784f1ba4-03cb-4ebb-896b-502040da2458" name="Default Changelist" comment="" />
+      <created>1608111980220</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608111980220</updated>
+      <workItem from="1608111981819" duration="83000" />
+      <workItem from="1608112085204" duration="18612000" />
+      <workItem from="1608183583033" duration="4732000" />
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="112" key="#File_and_Code_Templates" timestamp="1608135540731">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="112" key="#File_and_Code_Templates/0.0.1440.900@0.0.1440.900" timestamp="1608135540731" />
+    <state x="320" y="112" key="#Plugins" timestamp="1608112062297">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="112" key="#Plugins/0.0.1440.900@0.0.1440.900" timestamp="1608112062297" />
+    <state x="0" y="28" width="1440" height="872" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1608185098573">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="0" y="28" width="1440" height="872" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1440.900@0.0.1440.900" timestamp="1608185098573" />
+    <state x="0" y="28" width="1440" height="872" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.25.1440.803@0.25.1440.803" timestamp="1608143498918" />
+    <state x="749" y="124" key="#com.intellij.ide.util.MemberChooser" timestamp="1608188623820">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="749" y="124" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1608188623820" />
+    <state x="467" y="310" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1608142662280">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="467" y="310" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.900@0.0.1440.900" timestamp="1608142662280" />
+    <state width="1398" height="410" key="GridCell.Tab.0.bottom" timestamp="1608189161809">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="410" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1608189161809" />
+    <state width="1398" height="410" key="GridCell.Tab.0.bottom/0.25.1440.803@0.25.1440.803" timestamp="1608143502887" />
+    <state width="1398" height="410" key="GridCell.Tab.0.center" timestamp="1608189161808">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="410" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1608189161808" />
+    <state width="1398" height="410" key="GridCell.Tab.0.center/0.25.1440.803@0.25.1440.803" timestamp="1608143502886" />
+    <state width="1398" height="410" key="GridCell.Tab.0.left" timestamp="1608189161807">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="410" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1608189161807" />
+    <state width="1398" height="410" key="GridCell.Tab.0.left/0.25.1440.803@0.25.1440.803" timestamp="1608143502885" />
+    <state width="1398" height="410" key="GridCell.Tab.0.right" timestamp="1608189161808">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="410" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1608189161808" />
+    <state width="1398" height="410" key="GridCell.Tab.0.right/0.25.1440.803@0.25.1440.803" timestamp="1608143502886" />
+    <state x="208" y="25" width="1024" height="803" key="SettingsEditor" timestamp="1608139878416">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="208" y="25" width="1024" height="803" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1608139878416" />
+    <state x="0" y="0" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1608139866343">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="0" y="0" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1440.900@0.0.1440.900" timestamp="1608139866343" />
+    <state x="383" y="212" width="674" height="476" key="find.popup" timestamp="1608138783613">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="383" y="212" width="674" height="476" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1608138783613" />
+  </component>
+</project>

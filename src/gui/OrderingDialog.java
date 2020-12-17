@@ -1,9 +1,6 @@
 package gui;
 
-import model.IKernel;
-import model.Kernel;
-import model.Order;
-import model.OrderingEventSource;
+import model.*;
 
 import javax.swing.*;
 import java.awt.event.MouseAdapter;
@@ -20,17 +17,37 @@ public class OrderingDialog extends JFrame {
     private JComboBox<String> extraDrinksCB;
     private JComboBox<String> saucesCB;
 
-    OrderingDialog(IKernel app) {
+    public static final String TF_ADDRESS = "addressTF";
+    public static final String TF_TIME = "timeTF";
+    public static final String CB_PIZZA_NAME = "pizzaNameCB";
+    public static final String CB_PIZZA_SIZE = "pizzaSizeCB";
+    public static final String CB_EXTRA_DRINK = "extraDrinksCB";
+    public static final String CB_SAUCE = "saucesCB";
+    public static final String BTN_SUBMIT = "submit";
+
+    public OrderingDialog(IKernel app) {
         super("Test");
         final OrderingEventSource event_src = new OrderingEventSource(app);
 
-        pizzaNameCB.setModel(new DefaultComboBoxModel<String>(new String[]{"Пепперони", "Маргарита", "Гавайская"}));
+        addressTF.setName("addressTF");
+        timeTF.setName("timeTF");
+        pizzaNameCB.setName("pizzaNameCB");
+        pizzaSizeCB.setName("pizzaSizeCB");
+        extraDrinksCB.setName("extraDrinksCB");
+        saucesCB.setName("saucesCB");
+        submit.setName("submit");
 
-        pizzaSizeCB.setModel(new DefaultComboBoxModel<String>(new String[]{"15cm", "25cm", "30cm"}));
+        pizzaNameCB.setModel(new DefaultComboBoxModel(PizzaType.values()));
+        pizzaNameCB.setSelectedItem(PizzaType.Pepperoni);
 
-        extraDrinksCB.setModel(new DefaultComboBoxModel<String>(new String[]{"Cola", "Pepsi", "Fanta"}));
+        pizzaSizeCB.setModel(new DefaultComboBoxModel(PizzaSize.values()));
+        pizzaSizeCB.setSelectedItem(PizzaSize.Low);
 
-        saucesCB.setModel(new DefaultComboBoxModel<String>(new String[]{"Cheese", "Teriyaki", "BBQ"}));
+        extraDrinksCB.setModel(new DefaultComboBoxModel(ExtraDrink.values()));
+        extraDrinksCB.setSelectedItem(ExtraDrink.Cola);
+
+        saucesCB.setModel(new DefaultComboBoxModel(Sauce.values()));
+        saucesCB.setSelectedItem(Sauce.Cheese);
 
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setContentPane(mainpanel);
@@ -40,10 +57,10 @@ public class OrderingDialog extends JFrame {
             public void mouseClicked(MouseEvent e) {
                 try {
                     Order order = new Order(addressTF.getText(), timeTF.getText(),
-                            (String) pizzaNameCB.getSelectedItem(),
-                            (String) pizzaSizeCB.getSelectedItem(),
-                            (String) extraDrinksCB.getSelectedItem(),
-                            (String) saucesCB.getSelectedItem());
+                            (String) pizzaNameCB.getSelectedItem().toString(),
+                            (String) pizzaSizeCB.getSelectedItem().toString(),
+                            (String) extraDrinksCB.getSelectedItem().toString(),
+                            (String) saucesCB.getSelectedItem().toString());
                     event_src.SendOrder(order);
                 } catch (IllegalArgumentException ex) {
                     event_src.SendOrder(null);
